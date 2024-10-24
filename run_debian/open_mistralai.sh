@@ -2,7 +2,7 @@
 # This script is for Debian 12 with XFCE
 # Requirements: xdotool and wmctrl
 
-PROGRAM_NAME="chatgpt-electron.chatgpt-electron"
+PROGRAM_NAME="mistralai-electron.mistralai-electron"
 
 OPENED_ID=$(wmctrl -lx | grep -i "$PROGRAM_NAME" | tail -1 | awk '{print $1}') # find window
 
@@ -14,7 +14,7 @@ if [ -n "$OPENED_ID" ]; then # found
         xdotool windowminimize $OPENED_ID # hide
     fi
 else
-    ./chatgpt-electron-linux-x64/chatgpt-electron & # open new window
+    ./mistralai-electron-linux-x64/mistralai-electron & # open new window
     sleep 0.5
     WINDOW_ID=$(wmctrl -lx | grep -i "$PROGRAM_NAME" | tail -1 | awk '{print $1}') # find window
     # decoration:

@@ -1,4 +1,4 @@
-# ChatGPT Electron
+# Mistral AI Electron
 
 ![sample](sample.png)
 
@@ -22,27 +22,27 @@ npm run dev
 npm i
 npm run package
 ```
-This will create a folder (ie: `out/chatgpt-electron-linux-x64`) which contains the executable file for Debian.
+This will create a folder (ie: `out/mistralai-electron-linux-x64`) which contains the executable file for Debian.
 
-You can directly run `out/chatgpt-electron-linux-x64/chatgpt-electron` or you may want to use it in a "widget":
+You can directly run `out/mistralai-electron-linux-x64/mistralai-electron` or you may want to use it in a "widget":
 
 ### Use on Windows
 
-1. Move the executable folder `out/chatgpt-electron-win32-x64` anywhere you like it
+1. Move the executable folder `out/mistralai-electron-win32-x64` anywhere you like it
 
-2. Run `chatgpt-electron.exe` and enjoy!
+2. Run `mistralai-electron.exe` and enjoy!
 
 ### Use on MacOS
 
-1. Move the executable folder `out/chatgpt-electron-darwin-arm64` anywhere you like it
+1. Move the executable folder `out/mistralai-electron-darwin-arm64` anywhere you like it
 
-2. Run `chatgpt-electron.app` and enjoy!
+2. Run `mistralai-electron.app` and enjoy!
 
 ### Use on Linux
 
-1. Move the executable folder `out/chatgpt-electron-linux-x64` anywhere you like it
+1. Move the executable folder `out/mistralai-electron-linux-x64` anywhere you like it
 
-2. run `chatgpt-electron-linux-x64/open_chatgpt` and enjoy!
+2. run `mistralai-electron-linux-x64/open_mistralai` and enjoy!
 
 ### Panel shortcut in XFCE
 
@@ -51,9 +51,9 @@ You can directly run `out/chatgpt-electron-linux-x64/chatgpt-electron` or you ma
 - xdotool `apt install xdotool`
 - wmctrl `apt install wmctrl`
 
-To make a shortcut to open a controlled window from your XFCE panel, you need to call your `./open_chatgpt.sh`.
+To make a shortcut to open a controlled window from your XFCE panel, you need to call your `./open_mistralai.sh`.
 
-The goal of `./open_chatgpt.sh` is to find the Electron window then resize it at will. 
+The goal of `./open_mistralai.sh` is to find the Electron window then resize it at will. 
 
 It works with a `package` output and I did NOT tested it with deb and rpm.
 
@@ -65,7 +65,7 @@ It works with a `package` output and I did NOT tested it with deb and rpm.
 
 3. In the "Launcher" window, press the "+" button.
 
-4. In the "Edit Launcher" window, configure the Launcher so the command will open your `open_chatgpt.sh` from its path:
+4. In the "Edit Launcher" window, configure the Launcher so the command will open your `open_mistralai.sh` from its path:
 
 ![step4](shortcut2.png)
 

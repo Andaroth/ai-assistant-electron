@@ -28,7 +28,7 @@ function createWindow() {
     if (!removed) console.log('Cookie ajouté/activé : ', cookie);
   });
 
-  win.loadURL('https://chat.openai.com');
+  win.loadURL('https://chat.mistral.ai/chat');
 }
 
 // Uncomment lines depending on your local setup:

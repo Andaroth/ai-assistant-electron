@@ -1,5 +1,5 @@
 {
-  "name": "chatgpt-electron",
+  "name": "mistralai-electron",
   "version": "0.1.0",
   "main": "main.js",
   "scripts": {
@@ -18,7 +18,8 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
     "@electron-forge/plugin-fuses": "^7.5.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "^23.0.0"
+    "electron": "^23.0.0",
+    "electron-prebuilt-compile": "^8.2.0"
   },
   "description": "Boilerplate for a simple Electron app",
   "author": "MichaelCurrin",
