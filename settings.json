@@ -19,6 +19,7 @@
       "available": false
     },
     {
+      "id": 4,
       "label": "Copilot Pro",
       "url": "https://copilot.cloud.microsoft",
       "available": true,
